@@ -32,7 +32,7 @@ function App() {
           <Spell initialSpell="Exauste" optionsPosition={["top", "left"]}/>
         </div>
       <div className="options-container">
-        <img id="move" src={moveIcon} />
+        <img id="move" src={moveIcon} alt="mover" />
         <span id="close">X</span>
       </div>
     </div>

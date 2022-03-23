@@ -1,36 +1,47 @@
 import { useEffect, useState } from 'react'
 import Spells from '../../assets/Spells.json'
 import { Popover } from 'react-tiny-popover'
-import './styles.css'
+import moment from 'moment'
 import { OptionsSelector } from '../OptionsSelector'
+import './styles.css'
 
 
 function Spell({ initialSpell, optionsPosition }) {
   const [spell, setSpell] = useState(Spells.find(s => s.name===initialSpell))
+  const [startedTime, setTimeStarted] = useState(null)
   const [timer, setTimer] = useState(null)
   const [openOptions, setOpenOptions] = useState(false)
   
   useEffect(() => {
     setTimer(null) // stop timer when spell changes
+    setTimeStarted(null)
   }, [spell])
 
   useEffect(() => {
-    if (!timer)
+    if (!timer && !startedTime)
       return
 
-    if (timer===0) {
+    if (timer<0) {
       setTimer(null)
+      setTimeStarted(null)
     }
 
     const interval = setInterval(() => {
-      setTimer(timer - 1);
-    }, 1000);
+      let now = moment()
+      let secsPassedSinceCicleStarted = now.diff(startedTime, 'seconds')
+      
+      let ellapsedTime = moment.duration(secsPassedSinceCicleStarted, 'seconds')
+      ellapsedTime = Number(ellapsedTime.asSeconds())  
+      
+      setTimer(spell.cooldown - ellapsedTime)        
+    }, 1000)
 
-    return () => clearInterval(interval);
-  }, [timer]);
+    return () => clearInterval(interval)
+  }, [startedTime, timer])
 
   function handleStartTimer() {
     // setTimer(5)
+    setTimeStarted(moment())
     setTimer(spell.cooldown)
   }
 
