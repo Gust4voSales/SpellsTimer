@@ -1,0 +1,38 @@
+.options-selector-container {
+  /* background-color: gray; */
+  background-color: #474453;
+  width: 244px;
+  border-radius: 6px;
+  padding: 4px;
+  margin-top: -5px;
+  -webkit-app-region: no-drag;
+}
+
+.options-selector-container span {
+  user-select: none;
+  color: aliceblue;
+}
+
+.options-selector-container ul {
+  display: flex;
+  flex-wrap: wrap; 
+  padding-left: 0;
+  margin-top: 5px;
+  justify-content: flex-start;
+  margin-bottom: 0;
+}
+
+.options-selector-container ul li {
+  list-style: none;
+}
+
+.options-selector-container ul li img {
+  width: 22px;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  margin: 2.5px;
+  user-select: none;
+}
+.options-selector-container ul li img:hover {
+  opacity: 0.5;
+}

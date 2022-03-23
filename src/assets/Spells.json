@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Flash",
+    "cooldown": 300,
+    "image": "Flash.png"
+  },
+  {
+    "name": "Incendiar",
+    "cooldown": 180,
+    "image": "Ignite.png"
+  },
+  {
+    "name": "Barreira",
+    "cooldown": 180,
+    "image": "Barrier.png"
+  },
+  {
+    "name": "Purificar",
+    "cooldown": 210,
+    "image": "Cleanse.png"
+  },
+  {
+    "name": "Curar",
+    "cooldown": 240,
+    "image": "Heal.png"
+  },
+  {
+    "name": "Teleporte",
+    "cooldown": 360,
+    "image": "Teleport.png"
+  },
+  {
+    "name": "Fantasma",
+    "cooldown": 210,
+    "image": "Ghost.png"
+  },
+  {
+    "name": "Exauste",
+    "cooldown": 210,
+    "image": "Exhaust.png"
+  },
+  {
+    "name": "Teleporte Irrestrito",
+    "cooldown": 240,
+    "image": "Unleashed_Teleport.png"
+  }
+]
