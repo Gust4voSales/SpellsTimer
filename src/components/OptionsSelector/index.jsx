@@ -9,7 +9,7 @@ function OptionsSelector({ onOptionSelected, closeOptions, ...rest }) {
       <ul>
         {
           Spells.map(spell => (
-            <li onClick={() => {onOptionSelected(spell.name)}} key={spell.name}>
+            <li onClick={() => {onOptionSelected(spell.name)}} key={spell.name} >
               <img src={require('../../assets/'+spell.image).default} alt={spell.name} />
             </li>
           ))

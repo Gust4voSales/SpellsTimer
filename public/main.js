@@ -20,6 +20,7 @@ function createWindow() {
     resizable: false,
     autoHideMenuBar: true,
     alwaysOnTop: true,
+    icon: __dirname + '/icon.png',
     webPreferences: {
       nodeIntegration: true,
       preload: path.join(__dirname, 'preload.js')
