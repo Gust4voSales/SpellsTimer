@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1>Spells Timer</h1>
+<img src="https://github.com/Gust4voSales/SpellsTimer/blob/main/public/icon.png" alt="icon" height="200">
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Spells Timer is an overlay app (it stays on top of the window, and don't minimize) that helps you keep track of the enemies spells timers from League of Legends</p>
 
-## Available Scripts
+## 📜 About
+This project aims to help League of Legends players. Usually when trying to keep track of enemies cooldowns, they have to do the math and send the time into the chat, while playing. With this app, we have much more control and ease to keep track of the cooldowns.
 
-In the project directory, you can run:
+## 🎮 How to use
+- **Left click** in the spell will start the counter
+- **Right click** in the spell will open the available spells list so you can switch
+- Drag holding the right click in the arrow button to move the app
+- Exit (really?)
 
-### `npm start`
+## 💻 Techs
+* [Electron](https://www.electronjs.org/)       
+* [Typescript](https://www.typescriptlang.org/) 
+* [React](https://reactjs.org/)   
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Getting started
+First of all, clone this repo running on your terminal with ````git clone https://github.com/Gust4voSales/SpellsTimer.git```` 
+1. Run ````yarn```` inside the folder to install all dependecies
+2. Then ````yarn dev```` to run the app as development mode
+3. Optionally ````yarn electron:build```` to build the project to dist folder
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
