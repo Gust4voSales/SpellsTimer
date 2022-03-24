@@ -22,3 +22,27 @@
 .spell-container > img:hover {
   opacity: 0.5;
 }
+
+.text-flicker {
+  color: rgb(255, 0, 0) !important; 
+  /* animation: text-flicker 2s step-end infinite both; */
+  animation: text-flicker 1s linear infinite both;
+}
+
+@keyframes text-flicker {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+opacity: 0;
+  }
+  75% {
+opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

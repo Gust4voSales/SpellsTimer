@@ -12,8 +12,8 @@ function Spell({ initialSpell, optionsPosition }) {
   const [timer, setTimer] = useState(null)
   const [openOptions, setOpenOptions] = useState(false)
   
-  useEffect(() => {
-    setTimer(null) // stop timer when spell changes
+  useEffect(() => { // stop timer when spell changes
+    setTimer(null) 
     setTimeStarted(null)
   }, [spell])
 
@@ -62,7 +62,9 @@ function Spell({ initialSpell, optionsPosition }) {
   if (spell)
     return (
       <div className='spell-container' >
-        <span>{!!timer ? timer : spell.cooldown}</span>
+        <span className={(!!timer && timer<6) ? "text-flicker" : ''}>
+          {!!timer ? timer : spell.cooldown}
+        </span>
 
         <Popover
           isOpen={openOptions}
