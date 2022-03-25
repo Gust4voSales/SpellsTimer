@@ -5,7 +5,8 @@
 
 <p align="center">Spells Timer is an overlay app (it stays on top of the window, and don't minimize) that helps you keep track of the enemies spells cooldowns from League of Legends</p>
 
-[Download the installer and run the app](https://drive.google.com/file/d/1z8iNyHPzqO0yQLfy9t-lJIxvRkfBdW3X/view?usp=sharing)  
+👉[Vídeo demo](https://youtu.be/ZFd7fGYQGPc)<br>
+👉[Download the installer and run the app](https://drive.google.com/file/d/1z8iNyHPzqO0yQLfy9t-lJIxvRkfBdW3X/view?usp=sharing)  
 
 <h3>Screenshots</h3>
 <div align="center">
