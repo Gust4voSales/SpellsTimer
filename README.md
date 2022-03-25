@@ -3,7 +3,16 @@
 <img src="https://github.com/Gust4voSales/SpellsTimer/blob/main/public/icon.png" alt="icon" height="200">
 </div>
 
-<p align="center">Spells Timer is an overlay app (it stays on top of the window, and don't minimize) that helps you keep track of the enemies spells timers from League of Legends</p>
+<p align="center">Spells Timer is an overlay app (it stays on top of the window, and don't minimize) that helps you keep track of the enemies spells cooldowns from League of Legends</p>
+
+[Download the installer and run the app](https://drive.google.com/file/d/1z8iNyHPzqO0yQLfy9t-lJIxvRkfBdW3X/view?usp=sharing)  
+
+<h3>Screenshots</h3>
+<div align="center">
+  <img src=".github/running timers.png" alt="logo" height="425">
+  <img src=".github/time-finishing.png" alt="logo" height="285">
+  <img src=".github/change-spell.png" alt="logo" height="285">
+</div>
 
 ## 📜 About
 This project aims to help League of Legends players. Usually when trying to keep track of enemies cooldowns, they have to do the math and send the time into the chat, while playing. With this app, we have much more control and ease to keep track of the cooldowns.
